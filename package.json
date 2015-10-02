@@ -13,14 +13,19 @@
     "testing"
   ],
   "dependencies": {
-    "mongodb-core": "~1.2",
+    "debug": "^2.2.0",
+    "lodash.clone": "^3.0.2",
     "mkdirp": "0.5.0",
+    "mongodb-core": "~1.2",
     "rimraf": "2.2.6"
   },
   "author": "Christian Kvalheim",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/christkv/mongodb-tools/issues"
   },
-  "homepage": "https://github.com/christkv/mongodb-tools"
+  "homepage": "https://github.com/christkv/mongodb-tools",
+  "devDependencies": {
+    "eslint-config-mongodb-js": "^0.1.5"
+  }
 }
